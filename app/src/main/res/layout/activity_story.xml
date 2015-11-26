@@ -18,71 +18,82 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
+        android:id="@+id/fifthWord"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="@string/noun_word"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2"
-        android:layout_above="@+id/editText"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/fourthWord"
+        android:layout_above="@+id/fifthWord"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/adjective_word"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText3"
-        android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/sixthWord"
+        android:layout_below="@+id/fifthWord"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/number_word"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText4"
-        android:layout_below="@+id/editText3"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/seventhWord"
+        android:layout_below="@+id/sixthWord"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/adjective_word"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText5"
-        android:layout_above="@+id/editText2"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/thirdWord"
+        android:layout_above="@+id/fourthWord"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/plural_noun_word"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText6"
-        android:layout_below="@+id/editText4"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/eighthWord"
+        android:layout_below="@+id/seventhWord"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/exclamation_word"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText7"
-        android:layout_above="@+id/editText5"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/secondWord"
+        android:layout_above="@+id/thirdWord"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/number_word"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText8"
-        android:layout_below="@+id/editText6"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/ninthWord"
+        android:layout_below="@+id/eighthWord"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/adjective_word"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
-        android:layout_below="@+id/editText8"
-        android:layout_centerHorizontal="true" />
+        android:text="@string/create_story"
+        android:id="@+id/createStoryButton"
+        android:layout_below="@+id/ninthWord"
+        android:layout_centerHorizontal="true"
+        />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText9"
-        android:layout_above="@+id/editText7"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/firstWord"
+        android:layout_above="@+id/secondWord"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/adjective_word"
+        />
 </RelativeLayout>

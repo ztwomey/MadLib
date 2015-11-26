@@ -8,4 +8,10 @@
     <string name="title_activity_story">StoryActivity</string>
     <string name="instructions_text">Provide the following types of words</string>
     <string name="title_activity_results">ResultsActivity</string>
+    <string name="adjective_word">Adjective</string>
+    <string name="noun_word">Noun</string>
+    <string name="number_word">Number</string>
+    <string name="plural_noun_word">Plural Noun</string>
+    <string name="exclamation_word">Exclamation</string>
+    <string name="create_story">Create Story</string>
 </resources>
